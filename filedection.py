@@ -1,3 +1,4 @@
+#You have to wait the program finish to see it works
 import os
 running = True
 while running:
@@ -21,7 +22,7 @@ while running:
             print("That file was not found")
         except Exception:
             print("Error occured!Please check again.")
-    elif method == "write":
+    elif method == "write": #write file will be written in the same project folder where you place this file
         text = input("Write:\n")
         style = input("Overwrite(O) or Append(A):").upper()
         if style == "O":
