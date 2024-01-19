@@ -1,0 +1,23 @@
+
+.container{
+    background-color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: chocolate;
+    font-size: 1.5rem;
+}
+#numofdice{
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+#roll{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+p{
+    color: aqua;
+    font-size: 2em;
+}
